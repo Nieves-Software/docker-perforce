@@ -2,8 +2,8 @@
 version: '3'
 services:
   perforce:
-    build:
-      context: 
+    build: 
+      context: .
       dockerfile: Dockerfile
     restart: unless-stopped
     volumes:
